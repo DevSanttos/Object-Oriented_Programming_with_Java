@@ -46,6 +46,19 @@ public class Empresa {
     }
         
     public void imprimeFuncionarios() {
+        System.out.println("CNPJ: "+ getCnpj());
+        System.out.println("Razão Social: "+ getRazaoSocial());
+        System.out.println("Dados funcionário: ");
         
+        for(Funcionario funci : funcionarios) {
+            System.out.println("Nome: " + funci.getNome() + " Matricula: " + funci.getMatricula() + " Salario: " + funci.getSalario());
+        }
+    }
+    
+    public double getDespesaFolhasPagamento() {
+        double armazenaSalario = 0;
+        for(Funcionario funci : this.funcionarios) {
+          armazenaSalario += funci.getSalario();
+        } return armazenaSalario;
     }
 }
