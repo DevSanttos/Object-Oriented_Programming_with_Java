@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ContaBancaria
+comment1.params=numeroConta\ titular
+comment1.target=ContaBancaria(int,\ java.lang.String)
+comment2.params=saldoAtual
+comment2.target=boolean\ setSaldoAtual(double)
+comment3.params=
+comment3.target=double\ getSaldoAtual()
+comment4.params=
+comment4.target=java.lang.String\ getTitular()
+comment5.params=
+comment5.target=int\ getNumeroConta()
+comment6.params=quantAdicionar
+comment6.target=double\ depositar(double)
+comment7.params=quantRetirar
+comment7.target=double\ sacar(double)
+numComments=8
