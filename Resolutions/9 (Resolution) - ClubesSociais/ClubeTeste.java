@@ -30,5 +30,22 @@ public class ClubeTeste {
         assertEquals(2, sociosMenorIdade.size());
         assertEquals(socio2, sociosMenorIdade.get(0));
         assertEquals(socio4, sociosMenorIdade.get(1));
+        
+        assertEquals(31.75, clube1.getIdadeMediaSocios(), 0.01);
+        
+        ArrayList<Socio> sociosIdadeMaiorQueMedia = clube1.getSociosIdadeMaiorQueMedia();
+        assertEquals(2, sociosIdadeMaiorQueMedia.size());
+        assertEquals(socio1, sociosIdadeMaiorQueMedia.get(0));
+        assertEquals(socio3, sociosIdadeMaiorQueMedia.get(1));
+        
+        assertEquals(241.8, clube1.getArrecadacaoMensalidades(), 00.1);
+        
+        socio1.setIdade(51);
+        socio1.setValorMensalidade(80.00);
+        socio2.setIdade(18);
+        socio4.setValorMensalidade(55.50);
+        
+        clube1.removerSocio(456);
+        assertEquals(3, clube1.getSocios().size());
     }
 }
