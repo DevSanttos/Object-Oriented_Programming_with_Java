@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Socio
+comment1.params=matricula\ nome\ idade\ valorMensalidade
+comment1.target=Socio(int,\ java.lang.String,\ int,\ double)
+comment2.params=idade
+comment2.target=boolean\ setIdade(int)
+comment3.params=valorMensalidade
+comment3.target=boolean\ setValorMensalidade(double)
+comment4.params=
+comment4.target=int\ getMatricula()
+comment5.params=
+comment5.target=java.lang.String\ getNome()
+comment6.params=
+comment6.target=int\ getIdade()
+comment7.params=
+comment7.target=double\ getValorMensalidade()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
