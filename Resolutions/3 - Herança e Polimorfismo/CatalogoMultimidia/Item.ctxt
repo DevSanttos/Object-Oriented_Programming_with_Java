@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Item
+comment1.params=titulo\ duracao\ comentario
+comment1.target=Item(java.lang.String,\ double,\ java.lang.String)
+comment2.params=titulo
+comment2.target=boolean\ setTitulo(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getTitulo()
+comment4.params=duracao
+comment4.target=boolean\ setDuracao(double)
+comment5.params=
+comment5.target=double\ getDuracao()
+comment6.params=comentario
+comment6.target=boolean\ setComentario(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getComentario()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

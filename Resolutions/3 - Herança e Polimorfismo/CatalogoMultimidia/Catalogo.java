@@ -13,6 +13,10 @@ public class Catalogo{
         this.itens.add(ite);
     }
     
+    public ArrayList<Item> getItens(){
+        return this.itens;
+    }
+    
     public String toString(){
         String texto = "Colecionador: "+this.colecionador+"\n";
         texto += "Itens da coleção: \n";

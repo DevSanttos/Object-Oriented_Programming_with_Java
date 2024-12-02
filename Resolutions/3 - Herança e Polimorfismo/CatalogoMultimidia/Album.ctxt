@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Album
+comment1.params=titulo\ duracao\ comentario\ artista\ faixas
+comment1.target=Album(java.lang.String,\ double,\ java.lang.String,\ java.lang.String,\ int)
+comment2.params=artista
+comment2.target=boolean\ setArtista(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getArtista()
+comment4.params=faixas
+comment4.target=boolean\ setFaixas(int)
+comment5.params=
+comment5.target=int\ getFaixas()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

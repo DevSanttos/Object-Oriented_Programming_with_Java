@@ -1,7 +1,13 @@
-public class Item {
+public abstract class Item {
     protected String titulo;
     protected double duracao;
     protected String comentario;
+    
+    public Item(String titulo, double duracao, String comentario) {
+        this.titulo = titulo;
+        this.duracao = duracao;
+        this.comentario = comentario;
+    }
     
     public boolean setTitulo(String titulo) {
         if ( !titulo.isEmpty() ){

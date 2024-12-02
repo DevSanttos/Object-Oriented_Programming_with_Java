@@ -2,6 +2,12 @@ public class Album extends Item {
     private String artista;
     private int faixas;
     
+     public Album(String titulo, double duracao, String comentario, String artista, int faixas) {
+        super(titulo, duracao, comentario);
+        this.artista = artista;
+        this.faixas = faixas;
+    }
+    
     public boolean setArtista(String artista) {
         if (!artista.isEmpty()){
             this.artista = artista;
@@ -30,9 +36,7 @@ public class Album extends Item {
     
     @Override
     public String toString(){
-        return "Título: " + this.titulo + ", " +
-            "Duração: " + this.duracao + ", " +
-            "Comentário: "+ this.comentario + ", " +
+        return super.toString() + ", " +
             "Artista: " + this.artista + ", " +
             "Faixas: " + this.faixas;
     }
