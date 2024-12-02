@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Jogo
+comment1.params=quantJogadores
+comment1.target=boolean\ setQuantJogadores(int)
+comment2.params=
+comment2.target=int\ getQuantJogadores()
+comment3.params=
+comment3.target=boolean\ setPlataforma()
+comment4.params=
+comment4.target=java.lang.String\ getPlataforma()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

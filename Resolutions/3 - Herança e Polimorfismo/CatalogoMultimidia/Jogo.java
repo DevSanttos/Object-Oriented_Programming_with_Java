@@ -23,4 +23,13 @@ public class Jogo extends Item {
     public String getPlataforma() {
         return this.plataforma;
     }
+    
+    @Override
+    public String toString(){
+        return "Título: " + this.titulo + ", " +
+            "Duração: " + this.duracao + ", " +
+            "Comentário: "+ this.comentario + ", " +
+            "Quantidade jogadores: " + this.quantJogadores + ", " +
+            "Plataforma: " + this.plataforma;
+    }
 }

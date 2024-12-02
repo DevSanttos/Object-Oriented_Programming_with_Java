@@ -13,4 +13,10 @@ public class Filme extends Item{
             return false;
         }
     }
+    
+    @Override
+    public String toString(){
+        return super.toString() + ", " +
+            "Diretor: " + this.diretor;
+    }
 }

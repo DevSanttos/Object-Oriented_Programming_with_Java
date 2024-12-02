@@ -1,7 +1,7 @@
 public class Item {
-    private String titulo;
-    private double duracao;
-    private String comentario;
+    protected String titulo;
+    protected double duracao;
+    protected String comentario;
     
     public boolean setTitulo(String titulo) {
         if ( !titulo.isEmpty() ){
@@ -41,5 +41,10 @@ public class Item {
     public String getComentario() {
         return this.comentario;
     }
-
+    
+    public String toString(){
+        return "Título: " +this.titulo+ ", " +
+            "Duração: " +this.duracao+ ", " +
+            "Comentário: "+this.comentario;
+    }
 }

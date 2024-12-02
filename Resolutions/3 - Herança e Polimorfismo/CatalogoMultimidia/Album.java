@@ -27,4 +27,13 @@ public class Album extends Item {
     public int getFaixas() {
         return faixas;
     }
+    
+    @Override
+    public String toString(){
+        return "Título: " + this.titulo + ", " +
+            "Duração: " + this.duracao + ", " +
+            "Comentário: "+ this.comentario + ", " +
+            "Artista: " + this.artista + ", " +
+            "Faixas: " + this.faixas;
+    }
 }
