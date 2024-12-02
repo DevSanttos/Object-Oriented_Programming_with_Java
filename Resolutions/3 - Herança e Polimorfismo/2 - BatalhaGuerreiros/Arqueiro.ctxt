@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Arqueiro
-comment1.params=nome
-comment1.target=Arqueiro(java.lang.String)
-comment2.params=
-comment2.target=java.lang.String\ golpear()
-numComments=3
