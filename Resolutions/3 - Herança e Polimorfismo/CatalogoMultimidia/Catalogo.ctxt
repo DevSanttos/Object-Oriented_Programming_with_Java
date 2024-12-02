@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Catalogo
-comment1.params=colecionador
-comment1.target=Catalogo(java.lang.String)
-comment2.params=ite
-comment2.target=void\ addItens(Item)
-comment3.params=
-comment3.target=java.lang.String\ toString()
-numComments=4
