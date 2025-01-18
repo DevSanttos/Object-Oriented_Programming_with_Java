@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Resolutions/1 - Introdução POO/1 - Introdução POO.iml" filepath="$PROJECT_DIR$/Resolutions/1 - Introdução POO/1 - Introdução POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Resolutions/2 - Relacionamento entre objetos/2 - Relacionamento entre objetos.iml" filepath="$PROJECT_DIR$/Resolutions/2 - Relacionamento entre objetos/2 - Relacionamento entre objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Resolutions/3 - Herança e Polimorfismo/3 - Herança e Polimorfismo.iml" filepath="$PROJECT_DIR$/Resolutions/3 - Herança e Polimorfismo/3 - Herança e Polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Resolutions/4 - AnimalVirtual/4 - AnimalVirtual.iml" filepath="$PROJECT_DIR$/Resolutions/4 - AnimalVirtual/4 - AnimalVirtual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Resolutions/5 - Figura/5 - Figura.iml" filepath="$PROJECT_DIR$/Resolutions/5 - Figura/5 - Figura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Object-Oriented_Programming_with_Java.iml" filepath="$PROJECT_DIR$/.idea/Object-Oriented_Programming_with_Java.iml" />
+    </modules>
+  </component>
+</project>
